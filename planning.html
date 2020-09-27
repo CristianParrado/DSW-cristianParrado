@@ -32,6 +32,50 @@
   <img src="https://cdn.softwaretestinghelp.com/wp-content/qa/uploads/2020/01/Launch-GitHub-Desktop.png">
   <h3>Referencia Bibliografica</h3>
   <p>Que es GitHub, recuperado de <a href="https://www.hostinger.co/tutoriales/que-es-github/"> Qué es GitHub y para qué se utiliza</a>
+  <h3>tema propiedades básicas de CSS, Display: inline, block, inline-block</h3>
+      <h3>propiedades básicas de CSS</h3>
+<p>El lenguaje CSS que estamos usando actualmente es la versión 2.1 que es estándar y la 3.0 que todavía no está terminada de definir pero ya se está usando. La versión 3.0 agrega nuevas propiedades, que se suman a las anteriores. A continuación describo las principales propiedades:</p>
+<p>Font-family:</p>
+<p>Define la familia tipográfica. Es conveniente poner una lista de dos o tres tipografías separadas por coma, porque si el usuario no tiene instalada la tipografía que nosostros elegimos, el navegador opta por mostrar la siguiente que debería ser una similar, si tampoco la tiene instalada, mostrará la tipografía por defecto.</p>
+Tenemos 3 opciones para definir la elección de la familia tipográfica:1) usar una de las fuentes más comunes (web safe fonts) que muy probablemente tenga instalada el usuario (Arial, Verdana, Trebuchet, Georgia, san serif, Times), 2) subir nuestra propia fuente con una propiedad nueva que se llama @font-face, o 3) usar una fuente de Google Font, que en este momento es lo más recomendable. El sitio es: http://www.google.com/fonts/.</p>
+<p>Font-size:</p>
+<p>Define el tamaño de la fuente y el valor se puede escribir en pixels o en ems. En este momento se recomienda usar ems. Los dos son valores relativos, el pixel es un valor relativo a la resolución de la pantalla, pero el em es relativo al tamaño de la fuente definida por el usuario. Si el usuario no cambió la configuración, el valor por defecto de los textos en todos los navegadores es de 16px. Entonces 1em = 16px.</p>
+<p>Color:</p>
+<p>Define el color de la tipografía. Los colores se pueden escribir de 3 formas distinas: con sistema hexadecimal, por ejemplo: #FF0000 (es rojo). Con los nombres de los colores (más limitado) por ejemplo: black, red, green. O usando RGB, esta paleta permite agregar el canal alfa para hacer transparencias.</p>
+<p>Width:</p>
+<p>Define el ancho de un elemento, el valor se puede escribir en pixels, ems o porcentaje.</p>
+<p>Max-width o min-width: </p>
+<p>Definen el ancho máximo o mínimo de un elemento. Muy importante en sitios adaptables</p>
+<p>Height:</p>
+<p>Define el alto de un elemento, el valor se puede escribir en pixels, ems o porcentaje.</p>
+<p>Max-height o min-height: </p>
+<p>Definen el alto máximo o mínimo de un elemento. Muy importante en sitios adaptables</p>
+<p>Padding:</p>
+<p>Es la distancia desde el borde de un elemento hasta su contenido.</p>
+<p>Margin:</p>
+<p>Es la distancia entre un elemento y otro (desde el borde de un elemento hacia afuera)</p>
+<p>Border:</p>
+<p>Define el borde de un elemento, su color, su estilo y grosor.</p>
+<p>Background: </p>
+<p>Define los fondos de un objeto. El fondo puede ser una imagen o un color. El color puede ser pleno o degradado. La imagen se puede repetir formando una trama (es lo que ocurre por defecto) o se puede especificar que no repita y que se coloque en determinada posición.</p>
+<img src="https://www.laurachuburu.com.ar/img/tutoriales/indice/prop-css.png">
+<h3>display inline, block, inline-block</h3>
+<p>Cambio de tipo de visualización y un tercer tipo intermedio
+Bien, aparte de este comportamiento por defecto, es posible cambiar el modo en el que se visualiza/renderiza cualquier elemento HTML de una página usando la propiedad CSS llamada display.
+Esta propiedad puede tomar muchos valores diferentes, pero los más comunes son estos tres:
+•	block: hace que el comportamiento del elemento sea como un bloque.
+•	inline: el elemento se renderizará en línea con otros elementos.
+•	inline-block: el elemento tendrá un comportamiento mezcla entre los dos anteriores, que ahora voy a describir.
+Así por ejemplo, aunque tengamos una etiqueta span que se renderiza en línea por defecto, si le aplicamos la propiedad display:block; se renderizará como un bloque, es decir, sería exactamente igual que si hubiésemos puesto un <div>.
+El tercer valor de la lista anterior es muy interesante ya que permite obtener un comportamiento intermedio entre los otros dos. Los elementos inline-block fluyen con el texto y demás elementos como si fueran elementos en-línea y además respetan el ancho, el alto y los márgenes verticales. Son lo mejor de los dos mundos.
+Así, si por ejemplo redefinimos la etiqueta <span> de esta manera y volvemos a refrescar la página del principio, lo que veríamos por pantalla es esto:</p>
+  <img src="https://www.campusmvp.es/recursos/image.axd?picture=bloques-inline-block.png">
+  <p>Fíjate en que ahora se respetan todas las propiedades (ancho, alto y margen vertical), pero los elementos siguen estando en la misma línea.
+Cambio automático de modo
+Una cuestión importante y que muchas veces se nos pasa por alto es que un elemento en línea puede cambiar de manera automática y pasar a ser un elemento de bloque en ciertas circunstancias, sin que nos demos cuenta. En concreto si lo flotamos con la propiedad CSS llamada float, aunque el elemento sea inline (incluso aunque lo indiquemos explícitamente con un display:inline !important;) el elemento adquirirá automáticamente el estilo de bloque para poder aplicar la flotación, que tiene preferencia. Esto es lo que indica el estándar específicamente.</p>
+<h3>Referencia Bibliografica</h3>
+  <p>Propiedades Básicas de CSS, recuperado de <a href="https://www.laurachuburu.com.ar/tutoriales/propiedades-css.php"> Principales propiedades CSS</a>
+  <p>Display: inline, block, inline-block,recuperado de:<a href="https://www.campusmvp.es/recursos/post/Que-diferencias-hay-entre-display-block-inline-e-inline-block-en-CSS.aspx"> ¿Qué diferencias hay entre display:block, inline e inline-block en CSS?</a>
 
  <h2>Maquetación</h2>
   <img src="mockup.png" alt=mockup.png>
