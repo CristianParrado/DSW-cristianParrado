@@ -60,18 +60,20 @@ Tenemos 3 opciones para definir la elección de la familia tipográfica:1) usar 
 <p>Define los fondos de un objeto. El fondo puede ser una imagen o un color. El color puede ser pleno o degradado. La imagen se puede repetir formando una trama (es lo que ocurre por defecto) o se puede especificar que no repita y que se coloque en determinada posición.</p>
 <img src="https://www.laurachuburu.com.ar/img/tutoriales/indice/prop-css.png">
 <h3>display inline, block, inline-block</h3>
-<p>Cambio de tipo de visualización y un tercer tipo intermedio
-Bien, aparte de este comportamiento por defecto, es posible cambiar el modo en el que se visualiza/renderiza cualquier elemento HTML de una página usando la propiedad CSS llamada display.
-Esta propiedad puede tomar muchos valores diferentes, pero los más comunes son estos tres:
-•	block: hace que el comportamiento del elemento sea como un bloque.
-•	inline: el elemento se renderizará en línea con otros elementos.
-•	inline-block: el elemento tendrá un comportamiento mezcla entre los dos anteriores, que ahora voy a describir.
-Así por ejemplo, aunque tengamos una etiqueta span que se renderiza en línea por defecto, si le aplicamos la propiedad display:block; se renderizará como un bloque, es decir, sería exactamente igual que si hubiésemos puesto un <div>.
-El tercer valor de la lista anterior es muy interesante ya que permite obtener un comportamiento intermedio entre los otros dos. Los elementos inline-block fluyen con el texto y demás elementos como si fueran elementos en-línea y además respetan el ancho, el alto y los márgenes verticales. Son lo mejor de los dos mundos.
-Así, si por ejemplo redefinimos la etiqueta <span> de esta manera y volvemos a refrescar la página del principio, lo que veríamos por pantalla es esto:</p>
+<p>Cambio de tipo de visualización y un tercer tipo intermedio</p>
+<p>Bien, aparte de este comportamiento por defecto, es posible cambiar el modo en el que se visualiza/renderiza cualquier elemento HTML de una página usando la propiedad CSS llamada display.
+  Esta propiedad puede tomar muchos valores diferentes, pero los más comunes son estos tres:</p>
+<ul>
+        <li>block: hace que el comportamiento del elemento sea como un bloque.</li>
+        <li>inline: el elemento se renderizará en línea con otros elementos.</li>
+        <li>inline-block: el elemento tendrá un comportamiento mezcla entre los dos anteriores, que ahora voy a describir.</li>
+      </ul>
+<p>Así por ejemplo, aunque tengamos una etiqueta span que se renderiza en línea por defecto, si le aplicamos la propiedad display:block; se renderizará como un bloque, es decir, sería exactamente igual que si hubiésemos puesto un <div>.</p>
+<p>El tercer valor de la lista anterior es muy interesante ya que permite obtener un comportamiento intermedio entre los otros dos. Los elementos inline-block fluyen con el texto y demás elementos como si fueran elementos en-línea y además respetan el ancho, el alto y los márgenes verticales. Son lo mejor de los dos mundos.</p>
+<p>Así, si por ejemplo redefinimos la etiqueta <span> de esta manera y volvemos a refrescar la página del principio, lo que veríamos por pantalla es esto:</p>
   <img src="https://www.campusmvp.es/recursos/image.axd?picture=bloques-inline-block.png">
-  <p>Fíjate en que ahora se respetan todas las propiedades (ancho, alto y margen vertical), pero los elementos siguen estando en la misma línea.
-Cambio automático de modo
+  <p>Fíjate en que ahora se respetan todas las propiedades (ancho, alto y margen vertical), pero los elementos siguen estando en la misma línea.</p>
+  <p>Cambio automático de modo</p>
 Una cuestión importante y que muchas veces se nos pasa por alto es que un elemento en línea puede cambiar de manera automática y pasar a ser un elemento de bloque en ciertas circunstancias, sin que nos demos cuenta. En concreto si lo flotamos con la propiedad CSS llamada float, aunque el elemento sea inline (incluso aunque lo indiquemos explícitamente con un display:inline !important;) el elemento adquirirá automáticamente el estilo de bloque para poder aplicar la flotación, que tiene preferencia. Esto es lo que indica el estándar específicamente.</p>
 <h3>Referencia Bibliografica</h3>
   <p>Propiedades Básicas de CSS, recuperado de <a href="https://www.laurachuburu.com.ar/tutoriales/propiedades-css.php"> Principales propiedades CSS</a>
