@@ -1,0 +1,9 @@
+<ul id=”button”>
+ <li><a href=”#”>Inicio</a></li>
+ <li><a href=”#”>Conceptos</a></li>
+ <li><a href=”#”>Recursos</a></li>
+ <li><a href=”#”>Autoevaluación</a></li>
+ <li><a href=”#”>Autor</a></li>
+ </ul>
+ <body style="background-color:blue;">
+</body>
